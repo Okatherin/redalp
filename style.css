@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background: url(https://i.ibb.co/4WhtLLX/White-and-Orange-Clean-Modern-Website-UI-Prototype-19.png)no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    max-width: 90px;
+    margin-top: 3vh;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{ 
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    font-weight: 500px;
+    margin-right: 40px;
+    text-decoration:none;
+    color: rgb(223, 26, 26);
+}
+
+header ul li a span{
+    color: #fff5f5;
+    margin-left: -20px;
+    padding: .3em .5em;
+    margin-right: -54px;
+}
+
+header ul li a:hover{
+    border-bottom: 2px solid rgb(188, 42, 16);
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-top: 24vh;
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 530px;
+    text-align: left;
+
+}
+
+.content .textBox h2{
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 500;
+    margin-top: -9vh;
+}
+
+.content .textBox h2 span{
+    color: rgb(169, 9, 9);
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+.content .textBox p{
+    line-height: 1.5em;
+    margin-top: 3vh;
+    font-size: 1em;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: rgba(189, 17, 17, 0.978);
+    color: beige;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.but{
+    padding: 4px 20px;
+    background-color: rgba(189, 17, 17, 0.978);
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 50px;
+    text-decoration:none;
+    color: rgb(248, 248, 248);
+}
+
+
+.containerservice {
+    display: row;
+    flex-direction: column;
+    width: 50%;
+}
+
+.icontepi{
+    width: 50%;
+}
+
+.cardtepi {
+    display:flex;
+    margin-bottom: 1vh;
+    margin-top: 20vh;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15vh;
+    width: calc(100% / 3);
+}
+
+.onecardtepi {
+    width: auto;
+    height: 350px;
+    display: flex;
+    margin-top: 12vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.onecardtepi:hover {
+    transform: scale(1.05);
+    background-color: #17b5bb00;
+    letter-spacing: 0px;
+}
+
+.onecardtepi p {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    font-size: 13px;
+    color: rgba(4, 60, 75, 0.832);
+    font-weight: lighter;
+}
+
+.onecardtepi .tcc a{
+    color: rgb(241, 236, 236);
+    background-color: #c30b0bc0;
+    border: none;
+    text-decoration: none;
+    padding: 0.8em 1.4em;
+    line-height: 1;
+    font-size: 1.3em;
+    border-radius: 30px;
+    font-weight: 800;
+    position: relative;
+    transition: all 0.40 ease;
+    width: 9em;
+    display: flex;
+    z-index: 2;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.onecardtepi .tcc a:hover {
+    background: rgba(132, 4, 4, 0.948);
+    border: 3px solid;
+    transform: translate(9px);
+}
+
+.onecardtepi a{
+    color: rgb(241, 236, 236);
+    background-color: #c30b0bc0;
+    border: none;
+    text-decoration: none;
+    padding: 0.7em 2em;
+    line-height: 1;
+    font-size: 1.1em;
+    border-radius: 30px;
+    font-weight: 800;
+    position: relative;
+    transition: all 0.40 ease;
+    width: 9em;
+    display: flex;
+    margin-left: 2vh;
+    margin-top: 2.3vh;
+    margin-bottom: 5vh;
+}
+
+.onecardtepi a:hover {
+    background: rgba(132, 4, 4, 0.948);
+    border: 3px solid;
+    transform: translate(9px);
+}
+
+.onecardtepi p a{
+    color: rgb(241, 236, 236);
+    background-color: #c30b0bc0;
+    border: none;
+    text-decoration: none;
+    padding: 0.8em 1.4em;
+    line-height: 1;
+    font-size: 1.3em;
+    border-radius: 30px;
+    font-weight: 800;
+    position: relative;
+    transition: all 0.40 ease;
+    width: 9em;
+    display: flex;
+    z-index: 2;
+    margin-left: 10vh;
+    margin-top: 4.5vh;
+    margin-bottom: 5vh;
+}
+
+.onecardtepi p a:hover {
+    background: rgba(132, 4, 4, 0.948);
+    border: 3px solid;
+    transform: translate(9px);
+}
+.onecardtepi h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(161, 13, 28);
+    color: white;
+    margin-top: 20vh;
+    padding: 2vh 9%;
+    height: auto;
+  }
+  
+  .footer-left {
+    flex-basis: 100%;
+    margin-bottom: 2px;
+    text-align: right;}
+
+.footer-center .cont {
+    width: 97%;
+    flex-basis: 50%;
+    text-align: right;
+    margin-bottom: 1vh;
+    margin-top: -9vh;
+    color: #fcfcfc;
+    font-weight: lighter;
+    font-size: 2.4vh;
+  }
+  
+    .imgfooter{
+    width: 30%;
+    margin-top: -50vh;
+    margin-bottom: 4vh;
+    margin-left: 42vh;
+    justify-content: center;
+    
+  }
+
+  .solidarity img{
+    width: 40%;
+    margin-top: -50vh;
+    margin-right: -10vh;
+  }
+  .footer-right {
+    flex-basis: 80%;
+    text-align: right;
+    justify-content: right;
+    margin-top: -33vh;
+  }
+  
+
+  .footer h2 {
+    font-size: 18px;
+    font-weight: 70;
+    color: white;
+    line-height: 4px;
+    margin: 0;
+  }
+  
+  .footer p {
+    color: rgb(245, 238, 238);
+    width: 33%;
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+    padding: 3px;
+  }
+  
+  .footer .about {
+    margin-bottom: 10px;
+    font-size: 9vh;
+    color: rgb(242, 233, 233);
+  }
+  
+  .footer .aboutUs {
+    font-size: 2vh;
+  }
+  
+  .footer .icons {
+    margin-top: 6vh;
+   
+  
+  }
+  
+  .footer .icons a {
+    color: rgb(238, 239, 245);
+    margin-right: 3vh;
+    text-align: left;
+    margin-left: -2vh;
+    font-size: 6vh;
+    flex-direction: column;
+    justify-content: left;
+  
+  }
+
+  .footer .icons .imgfooter{ /*Imágenes Edu*/
+    width: 6%;
+    margin-top: 4vh;
+    margin-left: -2vh;
+  }
